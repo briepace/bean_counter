@@ -39,7 +39,7 @@ app.controller('BeanCounterCtrl', ['$scope', 'Computer', function($scope, Comput
 
   $scope.rooms = [
       {name: 'imc'},
-      {name: 'reference'}
+      {name: 'ref'}
   ]
 
   $scope.admin_submit = function() {
